@@ -115,6 +115,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="citiesLogic.h" />
+    <ClInclude Include="citiesConsol.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="citiesConsol.cpp" />
+    <ClCompile Include="citiesLogic.cpp" />
+    <ClCompile Include="main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
